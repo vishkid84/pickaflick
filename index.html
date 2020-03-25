@@ -14,18 +14,41 @@
 		type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
 		type="text/css" />
-	<!-- <link rel="stylesheet" href="assets/css/style.css" type="text/css" /> -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="Assets/js/script.js"></script>
-    <!-- <script src="Assets/js/pickaflick.js"></script> -->
+
 </head>
 
 <body>
-	<h1>Welcome to Pick a Flick</h1>
-	<button id="searchBtn">Get me a movie</button>
-    <p id="Title"></p>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Welcome to Pick a Flick</h1>
+				</div>
+			</div>
+		</div>
+	</header>
 
+	<section id="Search">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div >
+			            <input id="inputValue" class="form-control" type="search" placeholder="Search" aria-label="Search" >
+                    </div>
+                    <div class="searchBtnDiv">
+                        <button id="search" type="button" class="btn btn-info">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="searchMovie">
+        </section>
+    </section>
 
+	<!-- <script src="assets/js/script.js">  </script> -->
+	<script src="assets/js/pickaflick.js"></script>
 </body>
 
 </html>
