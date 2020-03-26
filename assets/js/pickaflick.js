@@ -44,7 +44,6 @@ $(searchButton).click(function () {
     .then(function (data) {
         let movies = data.results;
         // console.log("Movies", movies);
-        // console.log("Poster: ", movies.title);
         let movieBlock = movieContainer(movies);
         searchMovie.appendChild(movieBlock);
     })
